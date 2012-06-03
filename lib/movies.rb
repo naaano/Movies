@@ -56,8 +56,8 @@ class Movies
       @genres  = @genre.split(", ")
       @writers = @writer.split(", ")
       @actors  = @actors.split(", ")
-      @rating  = @rating.to_f
-      @votes   = @votes.to_i
+      @rating  = @imdbrating.to_f
+      @votes   = @imdbvotes.to_i
       
       if @runtime =~ /(\d+).+?(\d+)/
         @runtime = $1.to_i * 60 + $2.to_i
