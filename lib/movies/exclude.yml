@@ -22,9 +22,9 @@ excluded:
     - (\w+)?SUB
     - NTSC
     - PAL
-    - "s\d+e\d+"
-    - "\d+x\d+"
-    - "R[4|5|6]"
+    - 's\d+e\d+'
+    - '\d+x\d+'
+    - 'R[4|5|6]'
   groups:
     - EXTENDED
     - IMAGiNE
